@@ -563,7 +563,7 @@ a.specials_links:empty {
 
 /* Menu des notifications FERMÉ */
 #notiffi_panel {
-  --menuSize: 500px;
+  --menuSize: 410px;
   /* taille du Menu */
   width: var(--menuSize);
   position: fixed;
