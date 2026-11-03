@@ -107,11 +107,10 @@ body {
 /* Mettre la bannière en fond permet de la changer selon le thème clair ou sombre */
 #header {
   background-image: var(--header);
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
-  background-size: auto;
-  width: 900px;
-  height: 330px;
+  background-size: 1100px auto;
+  height: 610px;
   display: block;
 }
 
