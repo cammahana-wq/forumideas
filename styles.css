@@ -1116,7 +1116,7 @@ a.mainmenu img {
     border-radius: 10px;
     display: grid;
     text-align: center;
-    grid-template-columns: 180px 280px 365px;
+    grid-template-columns: 180px 300px 365px;
     grid-template-rows: 120px;
     gap: 12px;
     padding: 10px;
@@ -1143,12 +1143,12 @@ a.mainmenu img {
     opacity: 80%;
     color: var(--white);
     text-decoration: none;
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 20px;
-    padding: 10px 8px;
+    padding: 5px 5px;
     white-space: nowrap;
 }
 .link_ba a,
