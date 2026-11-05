@@ -1116,7 +1116,7 @@ a.mainmenu img {
     border-radius: 10px;
     display: grid;
     text-align: center;
-    grid-template-columns: 180px 300px 365px;
+    grid-template-columns: 180px 320px 365px;
     grid-template-rows: 120px;
     gap: 12px;
     padding: 10px;
