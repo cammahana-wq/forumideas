@@ -1053,7 +1053,7 @@ a.specials_links:empty {
 .navbar {
   background: var(--neutralDark);
   border-radius: 5px;
-  padding: 6px;
+  padding: 4px;
   display: flex;
   /* permet de mettre les liens sur une ligne */
   align-items: center;
