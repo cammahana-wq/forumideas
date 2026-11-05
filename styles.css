@@ -1136,6 +1136,7 @@ a.mainmenu img {
     grid-template-columns: 1fr 1fr;
     align-content: center;
     justify-items: center;
+  padding-inline-end: 50px;
 }
 .link_ba a {
     font-family: var(--font1);
