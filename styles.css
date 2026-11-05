@@ -1207,7 +1207,7 @@ a.mainmenu img {
     justify-content: center;
     position: relative;
     z-index: 997;
-  padding-inline-start: 50px;
+  padding-inline-start: 30px;
 }
 .titreenavant {
     font-family: var(--font1);
