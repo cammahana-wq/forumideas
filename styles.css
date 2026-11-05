@@ -1053,15 +1053,18 @@ a.specials_links:empty {
 .navbar {
   background: var(--neutralDark);
   border-radius: 5px;
-  margin-top: 10px;
-  padding: 10px;
-
+  padding: 6px;
   display: flex;
   /* permet de mettre les liens sur une ligne */
   align-items: center;
   /*centre verticalement*/
   justify-content: center;
   /*centre horizontalement*/
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  
 }
 
 /* Suppression des liens peu utilisés*/
