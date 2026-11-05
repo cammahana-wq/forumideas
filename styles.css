@@ -95,7 +95,7 @@ body {
 
 /* STRUCTURE PRINCIPALE ---*/
 .main_forum {
-  width: 950px;
+  width: 1010px;
   /*largeur forum*/
   margin: 0px auto;
   padding: 0px 3px 2px 3px;
@@ -107,10 +107,10 @@ body {
 /* Mettre la bannière en fond permet de la changer selon le thème clair ou sombre */
 #header {
   background-image: var(--header);
-  background-position: top center;
+  background-position: center -80px;
   background-repeat: no-repeat;
-  background-size: 950px auto;
-  height: 530px;
+  background-size: 1000px auto;
+  height: 590px;
   display: block;
 }
 
