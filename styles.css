@@ -1116,7 +1116,7 @@ a.mainmenu img {
     border-radius: 10px;
     display: grid;
     text-align: center;
-    grid-template-columns: 180px 320px 365px;
+    grid-template-columns: 320px 200px 365px;
     grid-template-rows: 120px;
     gap: 12px;
     width: 1160px;
@@ -1131,26 +1131,25 @@ a.mainmenu img {
 
 .link_ba {
     grid-row: 1;
-    grid-column: 1;
+    grid-column: 2;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-content: center;
-    justify-items: center;
-  padding-inline-end: 50px;
+    align-content: space-evenly;
+    justify-items: stretch;
+  
 }
 .link_ba a {
     font-family: var(--font1);
     background-color: var(--link-brown);
     opacity: 80%;
-    color: var(--white);
+    color: var(--neutral);
     text-decoration: none;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    border-radius: 20px;
-    padding: 5px 5px;
+    padding: 3px 5px;
     white-space: nowrap;
+  background: var(--contrastLighter);
 }
 .link_ba a,
 .link_ba a:link,
@@ -1163,7 +1162,7 @@ a.mainmenu img {
 
 .infosba {
   grid-row: 1;
-    grid-column: 2;
+    grid-column: 1;
     display: flex;
     gap: 14px;
     overflow-y: auto;
