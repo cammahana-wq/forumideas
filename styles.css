@@ -95,7 +95,7 @@ body {
 
 /* STRUCTURE PRINCIPALE ---*/
 .main_forum {
-  width: 920px;
+  width: 1170px;
   /*largeur forum*/
   margin: 0px auto;
   padding: 0px 3px 2px 3px;
@@ -107,10 +107,10 @@ body {
 /* Mettre la bannière en fond permet de la changer selon le thème clair ou sombre */
 #header {
   background-image: var(--header);
-  background-position: center -50px;
+  background-position: center -20px;
   background-repeat: no-repeat;
-  background-size: 900px auto;
-  height: 590px;
+  background-size: 1160px auto;
+  height: 673px;
   display: block;
 }
 
@@ -1119,14 +1119,14 @@ a.mainmenu img {
     grid-template-columns: 180px 320px 365px;
     grid-template-rows: 120px;
     gap: 12px;
-    padding: 10px;
-    width: 880px;
+    width: 1160px;
     max-width: 100%;
     box-sizing: border-box;
     margin: 0;
     position: relative;
     z-index: 10;
   justify-self: center;
+  justify-content: space-evenly;
 }
 
 .link_ba {
