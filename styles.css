@@ -16,7 +16,7 @@
   --neutralDarker: #d9d6d0;
 
   --contrast: #4a5866;
-  --contrastLight: #232657;
+  --contrastLight: #aebfbfa6;
   --contrastLighter: #c3c8f3;
 
   --accentClr: #4b57c5;
@@ -1148,11 +1148,11 @@ a.mainmenu img {
   background: var(--contrastLighter);
 }
 .link_ba a:nth-child(odd) {
-    color: var(--contrast);
+    background-color: var(--contrast);
 }
 
 .link_ba a:nth-child(even) {
-    color: var(--neutralDark);
+    background-color: var(--contrastLight);
 }
 .infosba {
   grid-row: 1;
