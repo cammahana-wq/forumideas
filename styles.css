@@ -9,7 +9,7 @@
 /* VARIABLE DU MODE DE BASE (ici clair) */
 :root {
   color-scheme: light;
-  --header: url('https://i30.servimg.com/u/f30/20/21/02/29/header11.jpg');
+  --header: url('https://i.imageupload.app/9044caaabad04f93f3e9.png');
 
   --neutral: #fafbfc;
   --neutralDark: #f2f4f9;
@@ -41,7 +41,7 @@
 /* VARIABLES DU MODE INVERSE (ici sombre) */
 [data-color-scheme="dark"] {
   color-scheme: dark;
-  --header: url('https://i30.servimg.com/u/f30/20/21/02/29/header11.jpg');
+  --header: url('https://i.imageupload.app/9044caaabad04f93f3e9.png');
 
   --neutral: #1e212a;
   --neutralDark: #181a21;
