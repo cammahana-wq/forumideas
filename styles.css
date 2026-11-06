@@ -1060,8 +1060,7 @@ a.specials_links:empty {
 /* Conteneur de la barre de nav */
 .navbar {
   background: var(--neutralDark);
-  border-radius: 5px;
-  padding: 4px;
+  padding: 3px;
   display: flex;
   /* permet de mettre les liens sur une ligne */
   align-items: center;
@@ -1072,7 +1071,7 @@ a.specials_links:empty {
   top: 0px;
   left: 0px;
   width: 100%;
-  
+  z-index: 1000;
 }
 
 /* Suppression des liens peu utilisés*/
