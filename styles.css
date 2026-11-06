@@ -1130,8 +1130,8 @@ a.mainmenu img {
     grid-row: 1;
     grid-column: 2;
     display: grid;
-    align-content: stretch;
-    justify-items: space-around;
+    align-content: space-around;
+    justify-items: stretch;
   
 }
 .link_ba a {
