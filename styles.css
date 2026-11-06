@@ -1136,9 +1136,8 @@ a.mainmenu img {
 }
 .link_ba a {
     font-family: var(--font1);
-    background-color: var(--link-brown);
     opacity: 80%;
-    color: var(--neutral);
+    color: var(--textColorAccent);
     text-decoration: none;
     font-size: 12px;
     font-weight: 600;
