@@ -11,9 +11,9 @@
   color-scheme: light;
   --header: url('https://i.imageupload.app/dd01200180d2d0fc8f00.png');
 
-  --neutral: #fafbfc;
-  --neutralDark: #f2f4f9;
-  --neutralDarker: #dce3f4;
+  --neutral: #aebfbf;
+  --neutralDark: #697d83;
+  --neutralDarker: #d9d6d0;
 
   --contrast: #171938;
   --contrastLight: #232657;
@@ -43,9 +43,9 @@
   color-scheme: dark;
   --header: url('https://i.imageupload.app/dd01200180d2d0fc8f00.png');
 
-  --neutral: #1e212a;
-  --neutralDark: #181a21;
-  --neutralDarker: #313543;
+  --neutral: #3a4550;
+  --neutralDark: #aebfbf;
+  --neutralDarker: #d9d6d0;
 
   --contrast: #e5e5f0;
   --contrastLight: #f4f4f4;
