@@ -1196,7 +1196,6 @@ a.mainmenu img {
     text-align: justify;
     overflow: auto;
     overflow-wrap: break-word;
-    background-color: var(--neutral);
     justify-content: flex-start;
     flex: 1;
     -webkit-overflow-scrolling: touch;
