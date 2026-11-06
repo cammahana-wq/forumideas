@@ -1120,7 +1120,7 @@ a.mainmenu img {
 .bande-annonces {
   font-family: var(--font1);
    border: 1px solid var(--border);
-    background-color: var(--neutral);
+    background-color: var(--neutralDark);
     border-radius: 10px;
     display: grid;
     text-align: center;
