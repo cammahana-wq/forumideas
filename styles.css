@@ -1204,6 +1204,7 @@ a.mainmenu img {
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 8px;
+  background: var(--neutralDarker);
 }
 
 .cadre2ba {
