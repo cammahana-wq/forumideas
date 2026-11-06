@@ -1306,7 +1306,7 @@ a.mainmenu img {
 /* conteneur d'un forum*/
 .forum {
   margin-bottom: 10px;
-  background: var(--neutral);
+  background: var(--neutralDarker);
   padding: 10px;
   border-radius: 5px;
 }
