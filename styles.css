@@ -76,7 +76,7 @@
 
 /* FOND DU FORUM ---*/
 body {
-  background: var(--neutralDark);
+  background: var(--neutral);
   font-family: var(--font);
   font-size: var(--normal-size);
   color: var(--textColor);
