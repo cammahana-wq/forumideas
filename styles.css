@@ -530,15 +530,14 @@ a.specials_links:empty {
 /* Bouton de notification */
 #notiffi_button {
   cursor: pointer;
-  background: var(--neutral);
   border-radius: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 5px 10px;
   position: fixed;
-  z-index: 99;
-  top: 10px;
+  z-index: 1001;
+  top: -5px;
   right: 10px;
   height: 35px;
 }
