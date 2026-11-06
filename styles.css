@@ -17,7 +17,7 @@
 
   --contrast: #4a5866;
   --contrastLight: #aebfbfa6;
-  --contrastLighter: #c3c8f3;
+  --contrastLighter: #aebfbf9e;
 
   --accentClr: #4b57c5;
   --accentClrDark: #333c92;
@@ -1178,7 +1178,7 @@ a.mainmenu img {
     min-width: 0;
     font-family: var(--font4);
     font-size: 12px;
-    line-height: 12px;
+    line-height: 15px;
     text-align: justify;
     overflow: auto;
     overflow-wrap: break-word;
@@ -1186,7 +1186,6 @@ a.mainmenu img {
     flex: 1;
     -webkit-overflow-scrolling: touch;
     touch-action: pan-y;
-    border-radius: 15px;
     scrollbar-width: thin;
     scrollbar-color: var(--accentClr) transparent;
 }
