@@ -222,11 +222,6 @@ a {
   color: var(--textColorAccent);
 }
 
-/*liens au survol*/
-a:hover {
-  color: var(--accentClr);
-}
-
 /* Emoji mis par défaut de FA
  * Les réduire les rend moins horribles à voir */
 .emojione {
@@ -1091,12 +1086,6 @@ a.specials_links:empty {
 /* liens de navigation */
 a.mainmenu {
   padding: 5px;
-}
-
-/* Lien navigation au survol*/
-a.mainmenu:hover {
-  background: var(--neutral);
-  border-radius: 5px;
 }
 
 /* Image des liens */
