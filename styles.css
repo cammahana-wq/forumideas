@@ -148,7 +148,7 @@ body {
 .sidebar_top {
   display: flex;
   flex-direction: column;
-  gap: 10px
+  gap: 10px;
   padding-top: 30px;
 }
 
