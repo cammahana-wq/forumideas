@@ -9,7 +9,7 @@
 /* VARIABLE DU MODE DE BASE (ici clair) */
 :root {
   color-scheme: light;
-  --header: url('https://i.imageupload.app/626ad0d1773af5ee99ce.png');
+  --header: url('https://i.imageupload.app/dd01200180d2d0fc8f00.png');
 
   --neutral: #fafbfc;
   --neutralDark: #f2f4f9;
@@ -41,7 +41,7 @@
 /* VARIABLES DU MODE INVERSE (ici sombre) */
 [data-color-scheme="dark"] {
   color-scheme: dark;
-  --header: url('https://i.imageupload.app/626ad0d1773af5ee99ce.png');
+  --header: url('https://i.imageupload.app/dd01200180d2d0fc8f00.png');
 
   --neutral: #1e212a;
   --neutralDark: #181a21;
