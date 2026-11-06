@@ -95,7 +95,7 @@ body {
 
 /* STRUCTURE PRINCIPALE ---*/
 .main_forum {
-  width: 1010px;
+  width: 920px;
   /*largeur forum*/
   margin: 0px auto;
   padding: 0px 3px 2px 3px;
@@ -109,7 +109,7 @@ body {
   background-image: var(--header);
   background-position: center -50px;
   background-repeat: no-repeat;
-  background-size: 1000px auto;
+  background-size: 900px auto;
   height: 590px;
   display: block;
 }
@@ -1207,7 +1207,6 @@ a.mainmenu img {
     justify-content: center;
     position: relative;
     z-index: 997;
-  padding-inline-start: 30px;
 }
 .titreenavant {
     font-family: var(--font1);
