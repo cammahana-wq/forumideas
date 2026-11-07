@@ -69,7 +69,7 @@
   box-sizing: border-box;
   /*évite que les éléments soient agrandis par le padding*/
   /* SCROLLBAR CUSTOM POUR MOZILLA */
-  scrollbar-color: var(--contrastLight);
+  scrollbar-color: var(--neutralDark) transparent;
   scrollbar-width: thin;
    --font1: "Open Sans";
   --font2: "Poppins", sans-serif;
@@ -1160,8 +1160,6 @@ a.mainmenu img {
     display: flex;
     gap: 14px;
     overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-color: var(--contrastLighter) transparent;
     justify-content: center;
 }
 
@@ -1184,6 +1182,7 @@ a.mainmenu img {
     -webkit-overflow-scrolling: touch;
     touch-action: pan-y;
     scrollbar-width: thin;
+  scrollbar-color: var(--neutral) transparent !important;
  background: var(--neutralDark);
 }
 
