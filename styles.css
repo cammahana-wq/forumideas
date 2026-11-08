@@ -1511,16 +1511,22 @@ gap: 5px;
     text-wrap: nowrap;
 }
 
+/* BULLES DES SCÉNARIOS */
+
 .cadre3 .lab,
 .cadre3 .lab img {
-    pointer-events: auto;}
-
-.lab:hover .bulle {
-    opacity: 1;
-    visibility: visible;
+    pointer-events: auto;
 }
+
+.cadre3 .lab {
+    position: relative;
+}
+
 .bulle {
-    position: fixed;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: var(--white);
     border: 1px solid var(--border);
     border-radius: 6px;
@@ -1530,24 +1536,26 @@ gap: 5px;
     font-size: 10px;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
     z-index: 998;
     pointer-events: none;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
-.lab:hover .bulle {
+
+.cadre3 .lab:hover .bulle {
     opacity: 1;
     visibility: visible;
 }
+
 .bulle-titre {
     display: block;
     font-weight: 600;
     text-transform: uppercase;
 }
+
 .bulle-nom {
     display: block;
 }
-
 /*** ------------------------------- ***/
 /*** CATEGORIES -------------------- ***/
 
