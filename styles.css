@@ -1545,6 +1545,7 @@ gap: 5px;
 .cadre3 .lab:hover .bulle {
     opacity: 1;
     visibility: visible;
+  background: var(--neutral);
 }
 
 .bulle-titre {
