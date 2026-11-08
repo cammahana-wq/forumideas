@@ -1190,10 +1190,17 @@ a.mainmenu img {
     grid-row: 1;
     grid-column: 2;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+  align-items: center;
 }
-.colonne-votes {}
+.colonne-votes {
+  text-wrap: nowrap;
+}
+
+.topsites img {
+  height: 60px;
+}
 .cadre5 {
     border: 1px var(--border);
     border-radius: 10px;
