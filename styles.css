@@ -1256,6 +1256,8 @@ a.mainmenu img {
     transition: border-radius 0.2s ease;
 }
 .chevron {
+    width: 10px;
+    height: 10px;
     flex-shrink: 0;
     transition: transform 0.2s ease;
 }
@@ -1266,6 +1268,11 @@ a.mainmenu img {
     transform: rotate(180deg);
 }
 .top-partenaires {
+     position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
     max-height: 0;
     overflow: hidden;
     background-color: var(--link-brown);
