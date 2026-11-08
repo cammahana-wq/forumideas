@@ -1214,8 +1214,6 @@ a.mainmenu img {
     min-width: 0;
     font-family: var(--font3);
     font-size: 30px;
-    line-height: 12px;
-    background-color: var(--white);
 }
 
 .topsites a {
