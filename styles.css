@@ -1511,8 +1511,8 @@ gap: 5px;
     text-wrap: nowrap;
 }
 
-.cadre2ba .lab,
-.cadre2ba .lab img {
+.cadre3 .lab,
+.cadre3 .lab img {
     pointer-events: auto;}
 
 .lab:hover .bulle {
