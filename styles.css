@@ -1519,6 +1519,11 @@ gap: 5px;
     text-wrap: nowrap;
 }
 
+#pa_last_user {}
+
+.pa_lastuser_avatar {}
+
+.pa_newest_user {}
 /* BULLES DES SCÉNARIOS */
 
 .cadre3 .lab,
