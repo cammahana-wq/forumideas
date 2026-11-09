@@ -1567,9 +1567,12 @@ gap: 5px;
 }
 
 #pa_last_user {
-      grid-row: 3;
-    grid-column: 4;
-    display: flex;
+     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    grid-column: 3;
+    grid-row: 2;
 }
 
 .pa_lastuser_avatar {}
