@@ -1576,8 +1576,8 @@ gap: 5px;
 }
 
 .pa_lastuser_avatar img {
-      width: 60px;
-    height: 80px;
+      width: 150px;
+    height: 100px;
     object-fit: cover;
     border-radius: 6px;
   object-position: center 10%;
