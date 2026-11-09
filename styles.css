@@ -1512,7 +1512,7 @@ gap: 5px;
     object-fit: cover; 
   transition: opacity 0.3s ease;
 }
-.plscena img:hover{
+.plscena:hover{
   opacity: 0.75;
 }
 .lienplscena {
