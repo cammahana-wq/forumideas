@@ -1324,7 +1324,7 @@ a.mainmenu img {
     display: grid;
     text-align: center;
     grid-template-columns: 270px 200px 150px;
-    grid-template-rows: 180px 70px 120px;
+    grid-template-rows: 160px 70px 120px;
     gap: 12px;
     padding: 10px;
     width: 1000px;
@@ -1346,6 +1346,9 @@ a.mainmenu img {
     align-items: center;
     justify-items: center;
     gap: 5px;
+  background: var(--neutralDark);
+  border-radius: 6px;
+  height: 150px;
 }
 
 .staff {
@@ -1414,8 +1417,6 @@ a.mainmenu img {
     justify-content: center;
     gap: 14px;
     overflow-y: auto;
-    height: 160px;
-    padding-top: 15px;
 }
 
 .contexte {
