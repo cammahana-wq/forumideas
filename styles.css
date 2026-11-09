@@ -1509,7 +1509,11 @@ gap: 5px;
     height: 80px;
     padding: 2px;
     border: 1px solid var(--border);
-    object-fit: cover;
+    object-fit: cover; 
+  transition: opacity 0.3s ease;
+}
+.plscena img:hover{
+  opacity: 0.75;
 }
 .lienplscena {
     text-decoration: none;
@@ -1580,8 +1584,11 @@ gap: 5px;
     object-fit: cover;
     border-radius: 6px;
   object-position: center 10%;
+   transition: opacity 0.3s ease;
 }
-
+.pa_lastuser_avatar img:hover {
+    opacity: 0.75;
+}
 .pa_newest_user {    
   text-wrap: nowrap;
     font-family: var(--font1);
