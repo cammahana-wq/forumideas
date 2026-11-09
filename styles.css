@@ -1519,11 +1519,6 @@ gap: 5px;
     text-wrap: nowrap;
 }
 
-#pa_last_user {}
-
-.pa_lastuser_avatar {}
-
-.pa_newest_user {}
 /* BULLES DES SCÉNARIOS */
 
 .cadre3 .lab,
@@ -1570,6 +1565,16 @@ gap: 5px;
 .bulle-nom {
     display: block;
 }
+
+#pa_last_user {
+      grid-row: 3;
+    grid-column: 4;
+    display: flex;
+}
+
+.pa_lastuser_avatar {}
+
+.pa_newest_user {}
 /*** ------------------------------- ***/
 /*** CATEGORIES -------------------- ***/
 
