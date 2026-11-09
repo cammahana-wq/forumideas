@@ -1567,15 +1567,20 @@ gap: 5px;
 }
 
 #pa_last_user {
-     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 10px;
+    grid-row: 3;
     grid-column: 3;
-    grid-row: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
-.pa_lastuser_avatar {}
+.pa_lastuser_avatar img {
+      width: 60px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+}
 
 .pa_newest_user {}
 /*** ------------------------------- ***/
