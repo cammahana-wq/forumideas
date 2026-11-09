@@ -1582,7 +1582,20 @@ gap: 5px;
     border-radius: 6px;
 }
 
-.pa_newest_user {}
+.pa_newest_user {    
+  text-wrap: nowrap;
+    font-family: var(--font1);
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.pa_newest_user a {    
+  text-wrap: nowrap;
+    font-family: var(--font1);
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 12px;
+}
 /*** ------------------------------- ***/
 /*** CATEGORIES -------------------- ***/
 
