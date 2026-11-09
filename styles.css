@@ -1347,7 +1347,10 @@ a.mainmenu img {
     gap: 5px;
   background: var(--neutralDark);
   border-radius: 6px;
-  height: 150px;
+  height: 130px;
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
 .staff {
