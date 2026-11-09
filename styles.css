@@ -19,7 +19,7 @@
   --contrastLight: #aebfbfa6;
   --contrastLighter: #aebfbf9e;
 
-  --accentClr: #4b57c5;
+  --accentClr: #99a9a9;
   --accentClrDark: #333c92;
 
   --textColor: #20272a;
@@ -1315,18 +1315,17 @@ a.mainmenu img {
  ****** PAGE PRINCIPALE, INDEX ------------------------------------------------------- ******/
 
 /* PAGE D'ACCUEIL ---*/
-/* PAGE D'ACCUEIL ---*/
 .pa_1 {
   font-family: var(--font3);
     border: 1px solid var(--border);
-    background-color: var(--neutral);
-    border-radius: 10px;
+    background-color: var(--accentClr);
+    border-radius: 6px;
     display: grid;
     text-align: center;
     grid-template-columns: 270px 200px 150px;
     grid-template-rows: 160px 70px 120px;
     gap: 12px;
-    padding: 10px;
+    padding: 15px 0px 30px 0px;
     width: 1000px;
     max-width: 100%;
     box-sizing: border-box;
