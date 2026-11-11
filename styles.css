@@ -127,8 +127,7 @@ body {
  * comme les encadrés d'options, de rappel, etc... */
 .panel {
   background: var(--neutral);
-  border-radius: 5px;
-  padding: 10px;
+  padding: 3px;
   margin: 25px 0;
 }
 
