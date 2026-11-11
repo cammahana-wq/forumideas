@@ -1324,13 +1324,14 @@ a.mainmenu img {
     grid-template-rows: 160px 70px 120px;
     gap: 12px;
     padding: 15px 0px 30px 0px;
-    width: 1000px;
+    width: 950px;
     max-width: 100%;
     box-sizing: border-box;
     margin: 0;
     position: relative;
     z-index: 10;
   justify-content: space-around;
+  justify-self: center;
 }
 
 /* AVATARS ADMIN */
