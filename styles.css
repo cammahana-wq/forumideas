@@ -1130,6 +1130,8 @@ a.mainmenu img {
     display: grid;
     align-content: space-around;
     justify-items: stretch;
+  width: 220px;
+  justify-self: flex-end;
   
 }
 .link_ba a {
