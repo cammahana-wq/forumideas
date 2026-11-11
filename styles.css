@@ -1267,7 +1267,6 @@ a.mainmenu img {
     transform: rotate(180deg);
 }
 .top-partenaires {
-     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
