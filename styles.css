@@ -36,6 +36,10 @@
   --title-size: 22px;
 
   --font: "Open Sans";
+  --font2: "Poppins", sans-serif;
+  --font3: "Playfair Display", serif;
+  --font4: "Inter", sans-serif;
+  --fonttitre: "Bodoni Moda", serif;
 }
 
 /* VARIABLES DU MODE INVERSE (ici sombre) */
