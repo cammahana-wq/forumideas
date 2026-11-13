@@ -60,8 +60,12 @@
   --border: 1px solid #2b2e3b;
 
   --shadowBox: 0 0 20px var(--neutralDark);
-
-   --font: "Open Sans";
+ 
+  --font1: "Open Sans";
+  --font2: "Poppins", sans-serif;
+  --font3: "Playfair Display", serif;
+  --font4: "Inter", sans-serif;
+  --fonttitre: "Bodoni Moda", serif;
 }
 
 /* S'applique à TOUS les éléments du forum*/
@@ -71,10 +75,6 @@
   /* SCROLLBAR CUSTOM POUR MOZILLA */
   scrollbar-color: var(--neutralDark) transparent;
   scrollbar-width: thin;
-   --font1: "Open Sans";
-  --font2: "Poppins", sans-serif;
-  --font3: "Playfair Display", serif;
-  --font4: "Inter", sans-serif;
 }
 
 /*** ------------------------------- ***/
