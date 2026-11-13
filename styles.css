@@ -1345,7 +1345,7 @@ a.mainmenu img {
   background: var(--neutralDark);
   border-radius: 6px;
   height: 130px;
-  width: 150px;
+  width: 180px;
   margin-top: 15px;
   position: relative;
   display: flex;
@@ -1353,6 +1353,7 @@ a.mainmenu img {
   margin-right: auto;
   justify-content: center;
   transition: width 0.4s ease;
+  left: 20%;
 }
 .admins:has(.admin1:hover, .admin2:hover) {
   width: 270px;
