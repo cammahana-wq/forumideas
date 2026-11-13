@@ -1351,7 +1351,11 @@ a.mainmenu img {
     color: var(--neutralDarker);
     text-shadow: 1px 1px 6px var(--textColorAccent);
   letter-spacing: 1px;
+  transition: font-size 0.4s ease;
   z-index: 3;
+}
+.admins:has(.admin1:hover, .admin2:hover) .titrestaff {
+  font-size: x-large;
 }
 .admins {
     grid-row: 1;
