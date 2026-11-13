@@ -1527,7 +1527,6 @@ gap: 5px;
     background-color: var(--contrast);
       text-shadow: 1px 1px var(--neutralDark);
 }
-}
 
 .liens_pa a:nth-child(even) {
     background-color: var(--neutralDark);
