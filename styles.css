@@ -1351,6 +1351,7 @@ a.mainmenu img {
     color: var(--neutralDarker);
     text-shadow: 1px 1px 6px var(--textColorAccent);
   letter-spacing: 1px;
+  z-index: 3;
 }
 .admins {
     grid-row: 1;
