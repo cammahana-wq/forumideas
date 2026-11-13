@@ -1341,7 +1341,15 @@ a.mainmenu img {
 
 /* AVATARS ADMIN */
 .titrestaff {
- position: absolute;
+    position: absolute;
+    bottom: 117px;
+    right: 98px;
+    font-size: large;
+    text-wrap: nowrap;
+    font-family: var(--fonttitre);
+    font-weight: 600;
+    color: var(--neutralDarker);
+    text-shadow: 1px 1px 6px var(--textColorAccent);
 }
 .admins {
     grid-row: 1;
