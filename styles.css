@@ -1336,32 +1336,63 @@ a.mainmenu img {
 }
 
 /* AVATARS ADMIN */
-
+.titrestaff {
+ position: absolute;
+}
 .admins {
     grid-row: 1;
     grid-column: 1;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    gap: 5px;
   background: var(--neutralDark);
   border-radius: 6px;
   height: 130px;
-  width: 300px;
+  width: 150px;
   margin-top: 15px;
-  margin-left: 20px;
+  position: relative;
+  display: flex;
+  margin-left:auto;
+  margin-right: auto;
+  justify-content: center;
+  transition: width 0.4s ease;
+}
+.admins:has(.admin1:hover, .admin2:hover) {
+  width: 270px;
+
+}
+.container-staff {
+  display:flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+width: 290px;
+margin: 3px;
+padding: 0 3px 0 3px;
+gap: 4px;
+
+}
+.admin1, .admin2 {
+  display: flex;
 }
 
+.admin1:hover .contenu, .admin2:hover .contenu {
+  display: flex;
+}
 .staff {
-    border-radius: 10px;
+    border-radius: 6px;
     width: 70px;
     height: 100px;
-    padding: 2px;
     border: 1px solid var(--border);
     object-fit: cover;
     cursor: pointer;
     transition: opacity 0.3s ease;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+}
+.admin1:hover .staff, 
+.admin2:hover .staff {
+  opacity: 0.85;
+  transform: scale(1.2);
+  margin: 4px;
 }
 
 .lab:hover .staff,
@@ -1381,7 +1412,7 @@ a.mainmenu img {
 }
 
 .contenu {
-    display: none;
+  display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1391,12 +1422,22 @@ a.mainmenu img {
     border-bottom: 1px solid var(--border);
     padding: 8px 0;
     text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: auto;
+    z-index: 1;
+    padding-left: 3px;
+    transition: transform 0.4s ease;
+}
+.admins:has(.admin1:hover) .contenu {
+    transform: translate(calc(-50% + 5px), -50%);
 }
 
-.contenu.visible {
-    display: flex;
+.admins:has(.admin2:hover) .contenu {
+    transform: translate(calc(-50% - 5px), -50%);
 }
-
 .nom {
     font-family: var(--font2);
     color: var(--accc1);
@@ -1410,6 +1451,8 @@ a.mainmenu img {
     font-size: 9px;
     letter-spacing: 1px;
     text-transform: lowercase;
+    display: flex;
+    flex-direction: column;
 }
 
 .cadre2 {
