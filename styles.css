@@ -1408,6 +1408,7 @@ gap: 4px;
     flex-shrink: 0;
     position: relative;
     z-index: 2;
+  transition-delay: 70ms;
 }
 .admin1:hover .staff, 
 .admin2:hover .staff {
