@@ -1374,7 +1374,7 @@ a.mainmenu img {
   left: 20%;
 }
 .admins:has(.admin1:hover, .admin2:hover) {
-  width: 270px;
+  width: 300px;
 
 }
 .container-staff {
@@ -1458,7 +1458,7 @@ gap: 4px;
 }
 
 .admins:has(.admin2:hover) .contenu {
-    transform: translate(calc(-50% - 5px), -50%);
+    transform: translate(calc(-50% - 0px), -50%);
 }
 .nom {
     font-family: var(--font2);
