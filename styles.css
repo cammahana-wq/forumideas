@@ -1350,6 +1350,7 @@ a.mainmenu img {
     font-weight: 600;
     color: var(--neutralDarker);
     text-shadow: 1px 1px 6px var(--textColorAccent);
+  letter-spacing: 1px;
 }
 .admins {
     grid-row: 1;
@@ -1514,20 +1515,23 @@ gap: 5px;
   color: var(--textColorAccent);
   text-decoration: none;
   font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-weight: 700;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  padding: 5px 5px;
+  padding: 4px 17px;
   white-space: nowrap;
   background: var(--contrastLighter);
   border-radius: 6px;
 }
 .liens_pa a:nth-child(odd) {
     background-color: var(--contrast);
+      text-shadow: 1px 1px var(--neutralDark);
+}
 }
 
 .liens_pa a:nth-child(even) {
     background-color: var(--neutralDark);
+  text-shadow: 1px 1px var(--contrastLight);
 }
 .enavant {
     grid-row: 3;
