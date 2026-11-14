@@ -1373,7 +1373,7 @@ a.mainmenu img {
   margin-right: auto;
   justify-content: center;
   transition: width 0.4s ease;
-  left: 20%;
+  left: 10%;
 }
 .admins:has(.admin1:hover, .admin2:hover) {
   width: 300px;
