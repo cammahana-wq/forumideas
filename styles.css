@@ -1354,6 +1354,7 @@ a.mainmenu img {
   letter-spacing: 1px;
   transition: font-size 0.4s ease;
   z-index: 3;
+  text-transform: uppercase;
 }
 .admins:has(.admin1:hover, .admin2:hover) .titrestaff {
   font-size: x-large;
@@ -1486,7 +1487,26 @@ gap: 4px;
     gap: 14px;
     overflow-y: auto;
 }
-
+.titrecontexte {
+  position: absolute;
+  top: 3px;
+    right: 372px;
+    font-size: large;
+    text-wrap: nowrap;
+    font-family: var(--fonttitre);
+    font-weight: 600;
+    color: var(--neutralDarker);
+    text-shadow: 1px 1px 6px var(--textColorAccent);
+  letter-spacing: 1px;
+  transition: font-size 0.4s ease, right 0.4s ease, top 0.4s ease;
+  z-index: 3;
+  text-transform: uppercase;
+}
+.cadre2:hover .titrecontexte {
+  font-size: x-large;
+  right: 330px;
+  top: 1px;
+}
 .contexte {
   padding: 10px;
   width: auto;
