@@ -378,7 +378,7 @@ a.sceditor-button {
 /* Conteneur de la zone de texte */
 .sceditor-container iframe,
 .sceditor-container textarea {
-  background-color: var(--neutral) !important;
+  background-color: var(--white) !important;
   /*ne pas supprimer*/
   width: 100% !important;
   margin: 0 !important;
