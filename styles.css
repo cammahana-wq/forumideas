@@ -1489,7 +1489,7 @@ gap: 4px;
 }
 .titrecontexte {
   position: absolute;
-  top: 3px;
+  top: 1px;
     right: 372px;
     font-size: large;
     text-wrap: nowrap;
@@ -1505,7 +1505,7 @@ gap: 4px;
 .cadre2:hover .titrecontexte {
   font-size: x-large;
   right: 330px;
-  top: 1px;
+  top: -5px;
 }
 .contexte {
   padding: 10px;
@@ -1525,6 +1525,7 @@ gap: 4px;
   scrollbar-color: var(--neutral) transparent !important;
   background: var(--neutralDark);
 border-radius: 6px;
+  margin-top: 5px;
 }
 
 .liens_pa {
