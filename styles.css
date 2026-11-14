@@ -1327,9 +1327,9 @@ a.mainmenu img {
     display: grid;
     text-align: center;
     grid-template-columns: 270px 200px 150px;
-    grid-template-rows: 160px 70px 120px;
+    grid-template-rows: 160px 70px 100px;
     gap: 12px;
-    padding: 15px 0px 30px 0px;
+    padding: 15px 0px 0px 0px;
     width: 950px;
     max-width: 100%;
     box-sizing: border-box;
@@ -1538,6 +1538,7 @@ align-items: center;
 justify-items: center;
 justify-content: space-evenly;
 gap: 5px;
+margin-bottom: 30px;
 }
 
 .liens_pa a {
@@ -1553,6 +1554,9 @@ gap: 5px;
   white-space: nowrap;
   background: var(--contrastLighter);
   border-radius: 6px;
+}
+.liens_pa a:hover {
+  color: var(--neutralDarker);
 }
 .liens_pa a:nth-child(odd) {
     background-color: var(--contrast);
@@ -1580,7 +1584,7 @@ gap: 5px;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 130px;
   background: var(--neutralDarker);
   width: 300px;
   border-radius: 6px;
@@ -1595,6 +1599,7 @@ gap: 5px;
     flex-wrap: nowrap;
     justify-content: center;
     gap:3px;
+    position: absolute;
 }
 .plscena {
     border-radius: 10px;
@@ -1603,10 +1608,11 @@ gap: 5px;
     padding: 2px;
     border: 1px solid var(--border);
     object-fit: cover; 
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, height 0.3s ease;
 }
 .plscena:hover{
   opacity: 0.75;
+  height: 90px;
 }
 .lienplscena {
     text-decoration: none;
@@ -1614,7 +1620,9 @@ gap: 5px;
     font-weight: lighter;
     text-wrap: nowrap;
 }
-
+.lienplscena:hover {
+  font-weight: bold;
+}
 /* BULLES DES SCÉNARIOS */
 
 .cadre3 .lab,
