@@ -341,7 +341,7 @@ select:focus-visible {
 /* Editeur de texte */
 .sceditor-container {
   border: var(--border) !important;
-  background-color: var(--neutral) !important;
+  background-color: var(--white) !important;
 }
 
 /* Barre d'outils de l'éditeur de texte*/
