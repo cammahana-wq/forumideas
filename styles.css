@@ -1513,7 +1513,7 @@ gap: 4px;
   min-width: 0;
   font-family: var(--font4);
   font-size: 12px;
-  line-height: 15px;
+  line-height: 19px;
   text-align: justify;
   overflow: auto;
   overflow-wrap: break-word;
@@ -1526,6 +1526,7 @@ gap: 4px;
   background: var(--neutralDark);
 border-radius: 6px;
   margin-top: 5px;
+  color: var(--textColorAccent);
 }
 
 .liens_pa {
