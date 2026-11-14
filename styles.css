@@ -133,7 +133,7 @@ body {
 .panel {
   background: var(--neutral);
   padding: 3px;
-  margin: 25px 0;
+  margin: 10px 8px;
 }
 
 .sidebar {
