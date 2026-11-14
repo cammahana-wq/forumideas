@@ -18,6 +18,7 @@
   --contrast: #4a5866;
   --contrastLight: #aebfbfa6;
   --contrastLighter: #aebfbf9e;
+  --white: #ffffff;
 
   --accentClr: #99a9a9;
   --accentClrDark: #333c92;
@@ -1696,7 +1697,7 @@ gap: 5px;
 /* conteneur d'un forum*/
 .forum {
   margin-bottom: 10px;
-  background: var(--neutralDarker);
+  background: var(--white);
   padding: 10px;
   border-radius: 5px;
 }
