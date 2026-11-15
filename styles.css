@@ -132,8 +132,8 @@ body {
  * comme les encadrés d'options, de rappel, etc... */
 .panel {
   background: var(--neutral);
-  padding: 3px;
-  margin: 10px 8px;
+  padding: 3px 0 0 0;
+  margin: 15px 8px;
 }
 
 .sidebar {
@@ -1323,13 +1323,12 @@ a.mainmenu img {
   font-family: var(--font3);
     border: 1px solid var(--border);
     background-color: var(--accentClr);
-    border-radius: 6px;
     display: grid;
     text-align: center;
     grid-template-columns: 270px 200px 150px;
     grid-template-rows: 160px 70px 110px;
     gap: 12px;
-    padding: 15px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
     width: 950px;
     max-width: 100%;
     box-sizing: border-box;
@@ -1489,8 +1488,8 @@ gap: 4px;
 }
 .titrecontexte {
   position: absolute;
-  top: 1px;
-    right: 372px;
+  bottom: 345px;
+    right: 365px;
     font-size: large;
     text-wrap: nowrap;
     font-family: var(--fonttitre);
@@ -1498,14 +1497,14 @@ gap: 4px;
     color: var(--neutralDarker);
     text-shadow: 1px 1px 6px var(--textColorAccent);
   letter-spacing: 1px;
-  transition: font-size 0.4s ease, right 0.4s ease, top 0.4s ease;
+  transition: font-size 0.4s ease, right 0.4s ease, bottom 0.4s ease;
   z-index: 3;
   text-transform: uppercase;
 }
 .cadre2:hover .titrecontexte {
   font-size: x-large;
   right: 330px;
-  top: -5px;
+  bottom: 345px;
 }
 .contexte {
   padding: 10px;
@@ -1707,8 +1706,9 @@ margin-bottom: 30px;
     font-size: 11px;
   font-weight: 600;
   letter-spacing: 1px;
+  
 }
-.pa_newest_user a {
+.pa_newest_user a:hover {
   font-weight: 800;
 }
 /*** ------------------------------- ***/
