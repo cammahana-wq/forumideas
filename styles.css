@@ -1778,6 +1778,7 @@ a.forumtitle:hover {
   max-height: 65px;
   overflow: auto;
   align-self: center;
+  padding-left: 20px;
 }
 
 /*conteneur avatar du dernier posteur*/
