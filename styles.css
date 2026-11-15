@@ -1732,6 +1732,7 @@ margin-bottom: 30px;
   font-weight: 700;
   margin: 10px 0 20px;
   font-family: var(--fonttitre);
+  text-shadow: 1px 1px var(--contrastLight);
 }
 
 /* conteneur d'un forum*/
