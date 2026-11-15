@@ -1751,6 +1751,9 @@ a.forumtitle {
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-color: var(--contrastLight);
+  font-weight: 800;
+  font-family: var(--font3);
+  color: var(--contrast);
 }
 
 .forum_content {
