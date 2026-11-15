@@ -1803,8 +1803,8 @@ a.forumtitle:hover {
 
 .forum_details {
   border-top: 1px solid var(--neutralDark);
-  padding-top: 10px;
-  margin-top: 10px;
+  padding-top: 6px;
+  margin-top: 5px;
   display: flex;
   justify-content: space-between;
 }
