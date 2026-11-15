@@ -1803,7 +1803,7 @@ a.forumtitle:hover {
 
 .forum_details {
   border-top: 1px solid var(--neutralDark);
-  padding-top: 6px;
+  padding-top: 8px;
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
@@ -1817,7 +1817,14 @@ a.forumtitle:hover {
 
 #subforum a {
   font-size: var(--little-size);
-  margin-right: 10px;
+  margin-right: 5px;
+  background: var(--neutralDarker);
+  border-radius: 6px;
+  padding: 0px 5px 0px 5px;
+  text-transform: lowercase;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+  font-family: var(--fonttitle);
 }
 
 .forum_stats {
