@@ -1151,6 +1151,10 @@ a.mainmenu img {
     white-space: nowrap;
   background: var(--contrastLighter);
 }
+.link_ba a:hover {
+  font-weight: 800;
+  color: var(--neutralDarker);
+}
 .link_ba a:nth-child(odd) {
     background-color: var(--contrast);
 }
