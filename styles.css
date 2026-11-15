@@ -1757,6 +1757,7 @@ a.forumtitle {
 }
 a.forumtitle:hover {
   text-shadow: 5px -2px 8px var(--neutralDark);
+}
   
 .forum_content {
   display: flex;
