@@ -1748,6 +1748,9 @@ margin-bottom: 30px;
 /* titre d'un forum */
 a.forumtitle {
   font-size: var(--large-size);
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: var(--contrastLight);
 }
 
 .forum_content {
