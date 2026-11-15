@@ -1736,10 +1736,8 @@ margin-bottom: 30px;
 
 /* conteneur d'un forum*/
 .forum {
-  margin-bottom: 10px;
   background: var(--white);
   padding: 10px;
-  border-radius: 5px;
 }
 
 .forum:last-child {
