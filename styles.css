@@ -1826,7 +1826,9 @@ a.forumtitle:hover {
   font-weight: 200;
   font-family: var(--fonttitle);
 }
-
+#subforum a:hover {
+  background: none;
+}
 .forum_stats {
   font-weight: 600;
   float: right;
