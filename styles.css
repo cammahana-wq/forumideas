@@ -1784,13 +1784,14 @@ a.forumtitle:hover {
 /*conteneur avatar du dernier posteur*/
 .forum_avatar {
   width: 60px;
-  height: 60px;
+  height: 90px;
 }
 
 .forum_avatar img {
   background: var(--neutralDark);
   width: 60px;
-  height: 60px;
+  height: 90px;
+  border-radius: 6px;
   object-fit: cover;
   object-position: center;
 }
