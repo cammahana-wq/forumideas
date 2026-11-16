@@ -1901,6 +1901,8 @@ a.gensmall {
   display: flex;
   justify-content: center;
   gap: 8px;
+  font-family: var(--font3);
+  text-transform: uppercase;
 }
 
 #qeel_posts,
@@ -1908,6 +1910,7 @@ a.gensmall {
   display: inline-block;
   padding: 5px 12px;
   border: 1px solid var(--border);
+  background: var(--neutralDark);
   border-radius: 20px;
   text-align: center;
 }
