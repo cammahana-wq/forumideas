@@ -1822,6 +1822,12 @@ a.forumtitle:hover {
   text-transform: math-auto !important;
   font-size: 14px !important;
 }
+
+a.gensmall {
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
 /* liens des sous forums */
 #subforum {
   font-size: 0;
