@@ -1936,6 +1936,8 @@ a.gensmall {
   flex-direction: column;
   align-items: center;
   gap: 6px;
+  text-transform: uppercase;
+  font-family: var(--font1);
 }
 
 .groupe-badge {
@@ -1943,18 +1945,18 @@ a.gensmall {
   width: 150px;
   box-sizing: border-box;
   padding: 4px 10px;
-  border: 1px solid var(--groupe-color);
+  background: var(--groupe-color);
   border-radius: 20px;
-  color: var(--groupe-color);
+  color: var(--neutralDarker);
   text-decoration: none;
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
   transition: 0.3s ease;
 }
 
 .groupe-badge:hover {
-  background: var(--groupe-color);
-  color: white;
+  background: var(--neutralDarker);
+  color: var(--groupe-color);
 }
 .qeel-middle {}
 
