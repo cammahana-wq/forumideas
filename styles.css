@@ -1803,6 +1803,9 @@ a.forumtitle:hover {
 .forum_lastpost {
   width: 180px;
   text-align: center;
+  text-transform: lowercase;
+  font-family: var(--font2);
+  font-size: 12px;
 }
 
 .forum_details {
@@ -1816,6 +1819,8 @@ a.forumtitle:hover {
   font-family: var(--fonttitre);
   font-weight: 500;
   letter-spacing: -0.5px;
+  text-transform: math-auto !important;
+  font-size: 14px !important;
 }
 /* liens des sous forums */
 #subforum {
