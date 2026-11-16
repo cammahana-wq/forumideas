@@ -1786,6 +1786,8 @@ a.forumtitle:hover {
 .forum_avatar {
   width: 60px;
   height: 90px;
+  padding-left: 22px;
+  margin-bottom: 5px;
 }
 
 .forum_avatar img {
@@ -1800,6 +1802,7 @@ a.forumtitle:hover {
 /* dernier message*/
 .forum_lastpost {
   width: 180px;
+  text-align: center;
 }
 
 .forum_details {
