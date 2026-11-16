@@ -495,12 +495,18 @@ summary {
   margin: 30px 0 0 0;
   clear: both;
 }
+.links_bar_bottom {
+  padding: 10px;
+  clear: both;
+}
 
 /* supprime si vide */
 .links_bar:empty {
   display: none;
 }
-
+.links_bar_bottom:empty {
+  display: none;
+}
 /* Lien spécial mis en avant */
 .specials_links a,
 a.specials_links {
