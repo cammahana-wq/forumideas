@@ -1884,8 +1884,6 @@ a.gensmall {
 
 /* Dernier inscrit */
 #last_user {
-  display: flex;
-  align-items: center;
   display:none;
 }
 
@@ -1902,13 +1900,11 @@ a.gensmall {
 .qeel-groups {
   margin-top: 10px;
 }
-
 .groupes-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
 }
-
 .groupe-badge {
   display: inline-block;
   padding: 4px 10px;
@@ -1924,7 +1920,6 @@ a.gensmall {
   background: var(--groupe-color);
   color: white;
 }
-
 .qeel-middle {}
 
 /*X connectés :: 1 membre, 0 invisible, 0 invité*/
