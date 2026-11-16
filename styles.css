@@ -1886,6 +1886,7 @@ a.gensmall {
 #last_user {
   display: flex;
   align-items: center;
+  display:none;
 }
 
 #lastuser_avatar img {
