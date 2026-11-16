@@ -1809,7 +1809,11 @@ a.forumtitle:hover {
   display: flex;
   justify-content: space-between;
 }
-
+.lastpost_link {
+  font-family: var(--fonttitre);
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
 /* liens des sous forums */
 #subforum {
   font-size: 0;
