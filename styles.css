@@ -1896,23 +1896,45 @@ a.gensmall {
   margin-right: 10px;
 }
 
+/* STATISTIQUES */
+.qeel-stats {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+#qeel_posts,
+#qeel_members {
+  display: inline-block;
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  text-align: center;
+}
+
 /* GROUPES */
 .qeel-groups {
   margin-top: 10px;
 }
+
 .groupes-badges {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   gap: 6px;
 }
+
 .groupe-badge {
-  display: inline-block;
+  display: block;
+  width: 150px;
+  box-sizing: border-box;
   padding: 4px 10px;
   border: 1px solid var(--groupe-color);
   border-radius: 20px;
   color: var(--groupe-color);
   text-decoration: none;
   font-size: 11px;
+  text-align: center;
   transition: 0.3s ease;
 }
 
