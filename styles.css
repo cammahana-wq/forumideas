@@ -1962,9 +1962,6 @@ a.gensmall {
 }
 .qeel-middle {}
 
-/*X connectés :: 1 membre, 0 invisible, 0 invité*/
-#total_users {}
-
 /*Connectés en ce moment*/
 #online_users {
   height: 95px;
@@ -1979,7 +1976,7 @@ a.gensmall {
   font-family: var(--fonttitre);
   font-size: 13px;
   text-wrap: nowrap;
-  white-space: nowrap:
+  letter-spacing: -0.1px;
 }
 .credits {
   font-size: var(--little-size);
