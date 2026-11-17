@@ -1995,7 +1995,14 @@ a.gensmall {
   font-family: var(--fonttitre);
   font-weight: 600;
 }
-
+.separator-right {
+    padding-bottom: 5px;
+  margin-bottom: 5px;
+  clear: both;
+  height: 1px;
+  width: 100%;
+  
+}
 /****** ------------------------------------------------------------------------------
  ****** LISTE DES SUJETS ------------------------------------------------------------- ******/
 
