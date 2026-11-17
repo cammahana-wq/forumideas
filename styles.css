@@ -1865,21 +1865,22 @@ a.gensmall {
 
 .qeel {
   background: var(--neutralDark);
-  border-radius: 5px;
-  padding: 10px;
+  padding: 4px 0 0 0;
   display: grid;
   grid-template-columns: 30% 40% 30%;
   grid-gap: 1px;
   margin-bottom: 10px;
+  margin-top: 5px;
+  width: 940px;
+  justify-self: anchor-center;
 }
 
 .qeel>div {
   background: var(--neutral);
-  padding: 15px 10px;
+  padding: 15px;
 }
 
 .qeel-left {
-  border-radius: 5px 0 0 5px;
 }
 
 /* Dernier inscrit */
@@ -1984,8 +1985,8 @@ a.gensmall {
 }
 
 .qeel-right {
-  border-radius: 0 5px 5px 0;
   text-align: justify;
+  margin-right: 2px;
 }
 
 /****** ------------------------------------------------------------------------------
