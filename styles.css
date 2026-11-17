@@ -1989,7 +1989,9 @@ a.gensmall {
   margin-right: 2px;
 }
 
-.last_connected_title {
+.last-connected-title {
+  font-family: var(--fonttitre);
+  font-weight: 600;
 }
 
 /****** ------------------------------------------------------------------------------
