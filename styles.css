@@ -1975,7 +1975,12 @@ a.gensmall {
 #online_users br {
   display: none;
 }
-
+#total_users {
+  font-family: var(--fonttitre);
+  font-size: 13px;
+  text-wrap: nowrap;
+  white-space: nowrap:
+}
 .credits {
   font-size: var(--little-size);
   border: var(--border);
