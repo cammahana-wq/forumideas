@@ -1180,22 +1180,31 @@ a.mainmenu img {
 }
 
 .infos_ba {
-    padding: 10px;
+    padding: 12px;
     width: auto;
     min-width: 0;
     font-family: var(--font4);
     font-size: 12px;
     line-height: 15px;
     text-align: justify;
-    overflow: auto;
     overflow-wrap: break-word;
     justify-content: flex-start;
     flex: 1;
-    -webkit-overflow-scrolling: touch;
-    touch-action: pan-y;
-    scrollbar-width: thin;
-  scrollbar-color: var(--neutral) transparent !important;
  background: var(--neutralDark);
+}
+.titre_infosba {
+    position: absolute;
+    bottom: -5px;
+    left: 10px;
+    font-size: large;
+    text-wrap: nowrap;
+    font-family: var(--fonttitre);
+    font-weight: 600;
+    color: var(--neutralDarker);
+    text-shadow: 1px 1px 6px var(--textColorAccent);
+    letter-spacing: 1px;
+    z-index: 3;
+    text-transform: uppercase;
 }
 
 .blocvotes {
