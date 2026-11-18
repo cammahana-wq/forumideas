@@ -1688,17 +1688,16 @@ margin-bottom: 30px;
 
 #pa_last_user {
     grid-row: 2/3;
-    grid-column: 3;
+    grid-column: 2/3;
     display: flex;
-    flex-direction: column;
-  padding-right: 150px;
+  padding-left: 230px;
     align-items: center;
-  padding-top: 60px;
+  padding-top: 120px;
 }
 
 .pa_lastuser_avatar img {
-      width: 140px;
-    height: 120px;
+      width: 100px;
+    height: 130px;
     object-fit: cover;
     border-radius: 6px;
   object-position: center center;
@@ -1708,7 +1707,6 @@ margin-bottom: 30px;
     opacity: 0.75;
 }
 .pa_newest_user {    
-  text-wrap: nowrap;
     font-family: var(--font1);
     text-transform: uppercase;
     font-weight: lighter;
@@ -1716,6 +1714,7 @@ margin-bottom: 30px;
   background: var(--neutralDarker);
   border-radius: 6px;
   padding: 0px 5px 1px 5px;
+  margin-left: 15px;
 }
 .pa_newest_user a {    
   text-wrap: nowrap;
