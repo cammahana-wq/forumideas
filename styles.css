@@ -1727,6 +1727,8 @@ margin-bottom: 30px;
 }
 .pa_newest_user a:hover {
   font-weight: 800;
+  font-size: 12px;
+  text-shadow: 1px 1px var(--neutralDark);
 }
 /*** ------------------------------- ***/
 /*** CATEGORIES -------------------- ***/
