@@ -2351,10 +2351,25 @@ button.rep-button .rep-nb {
     box-sizing: border-box;
 }
 
-.post_pseudo {
-  font-weight: bold;
+.pseudo_profil {
+    display: grid;
+    text-transform: uppercase;
+    margin-top: 3px;
+    background: var(--neutral);
+    border-radius: 6px;
 }
 
+.post_pseudo {
+    display: flex;
+    font-size: 13px;
+    font-weight: 1000;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    margin-top: 6px;
+}
+.post_rank {
+  font-size: 10px;
+  letter-spacing: 1px;
 /* Lien "@" de mention */
 a.fa-mention {
   cursor: pointer;
