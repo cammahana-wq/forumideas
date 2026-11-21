@@ -2341,8 +2341,14 @@ button.rep-button .rep-nb {
 }
 
 .post_profile {
-  padding: 10px;
-  border-right: 1px solid var(--neutralDark);
+    padding: 15px 10px;
+    width: 220px;
+    text-align: center;
+    background: var(--accentClr);
+    position: sticky;
+    top: 50px;
+    align-self: start;
+    box-sizing: border-box;
 }
 
 .post_pseudo {
