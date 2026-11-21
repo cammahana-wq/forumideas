@@ -2357,19 +2357,24 @@ button.rep-button .rep-nb {
     margin-top: 3px;
     background: var(--neutral);
     border-radius: 6px;
+  padding: 5px 0 5px 0;
+  font-family: var(--font1)
 }
 
 .post_pseudo {
     display: flex;
-    font-size: 13px;
-    font-weight: 1000;
+    font-size: 14px;
     justify-content: center;
     letter-spacing: 0.5px;
-    margin-top: 6px;
+  text-shadow: 1px 1px var(--neutralDark);
 }
+
 .post_rank {
   font-size: 10px;
   letter-spacing: 1px;
+  font-weight: 600; 
+}
+  
 /* Lien "@" de mention */
 a.fa-mention {
   cursor: pointer;
